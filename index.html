@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+        <div class="calculator">
+            <input type="text" class="output" id="output" disabled>
+            <div class="buttons">
+              <div class="button-row">
+                <button class="number" onclick="calc('7')">7</button>
+                <button class="number" onclick="calc('8')">8</button>
+                <button class="number" onclick="calc('9')">9</button>
+                <button class="operator" onclick="calc('*')">*</button>
+              </div>
+              <div class="button-row">
+                <button class="function" onclick="calcs('sin')">sin</button>
+                <button class="function" onclick="calcs('cos')">cos</button>
+                <button class="function" onclick="calcs('tan')">tan</button>
+                <button class="operator" onclick="calcl('log','ln')">log</button>
+              </div>
+              <div class="button-row">
+                <button class="number" onclick="calc('4')">4</button>
+                <button class="number" onclick="calc('5')">5</button>
+                <button class="number" onclick="calc('6')">6</button>
+                <button class="operator" onclick="calc('-')">-</button>
+              </div>
+              <div class="button-row">
+                <button class="function" onclick="calc('(')">(</button>
+                <button class="function" onclick="calc(')')">)</button>
+                <button class="function" onclick="calc('%')">%</button>
+                <button class="operator" onclick="c()">c</button>
+              </div>
+              <div class="button-row">
+                <button class="number" onclick="calc('1')">1</button>
+                <button class="number" onclick="calc('2')">2</button>
+                <button class="number" onclick="calc('3')">3</button>
+                <button class="operator" onclick="calc('+')">+</button>
+              </div>
+              <div class="button-row">
+                <button class="function" onclick="calc('.')">.</button>
+                <button class="function" onclick="calc('/')">/</button>
+                <button class="function" onclick="calc('0')">0</button>
+                <button class="function" onclick="back()">b</button>
+                <button class="operator" onclick="calculer()">=</button>
+              </div>
+            </div>
+          
+          
+</body>
+</html>
+
+
